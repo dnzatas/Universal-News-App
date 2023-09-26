@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Detail-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="Y6W-OH-hqX" customClass="DetailViewController" customModule="UN" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="749"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9w6-gA-ISj">
+                                <rect key="frame" x="338" y="0.0" width="47" height="34.333333333333336"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="bookmark" catalog="system" symbolScale="large"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="detailBookmarkButtonClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="u0z-fV-LpP"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage" translatesAutoresizingMaskIntoConstraints="NO" id="X1M-BP-IIh">
+                                <rect key="frame" x="0.0" y="42.333333333333343" width="393" height="250.00000000000003"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Kf7-Rv-VLq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What we know about the floods that killed thousands in Libya - CNN" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0on-nP-s03">
+                                <rect key="frame" x="8" y="355.66666666666669" width="377" height="45.666666666666686"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thu, Sep 14, 2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Sd-io-Xgj">
+                                <rect key="frame" x="8" y="316" width="377" height="15.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7N-CD-cXp">
+                                <rect key="frame" x="8" y="417.33333333333337" width="377" height="81.333333333333314"/>
+                                <string key="text">Emergency teams are working to find survivors and retrieve bodies after a massive flood hit Libya’s northeast three days ago, killing at least 5,300 people and leaving 10,000 missing.</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Katie Holmes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2z-Km-Foj">
+                                <rect key="frame" x="8" y="298.33333333333331" width="377" height="15.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUU-XI-Jb4">
+                                <rect key="frame" x="8" y="0.0" width="16" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="sTj-dZ-zXn"/>
+                                    <constraint firstAttribute="width" constant="16" id="yvE-ax-Uhi"/>
+                                </constraints>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="detailBackButtonClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Uvr-zu-ESU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VdZ-u7-Qj1">
+                                <rect key="frame" x="8" y="514.66666666666663" width="377" height="162.33333333333337"/>
+                                <string key="text">Emergency teams are working to find survivors and retrieve bodies after a massive flood hit Libya’s northeast three days ago, killing at least 5,300 people and leaving 10,000 missing. Emergency teams are working to find survivors and retrieve bodies after a massive flood hit Libya’s northeast three days ago, killing at least 5,300 people and leaving 10,000 missing.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8Sd-io-Xgj" firstAttribute="top" secondItem="t2z-Km-Foj" secondAttribute="bottom" constant="2" id="1zA-A6-ZdO"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="t2z-Km-Foj" secondAttribute="trailing" constant="8" id="4Lk-4K-U1p"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="0on-nP-s03" secondAttribute="trailing" constant="8" id="6SK-dx-kE7"/>
+                            <constraint firstItem="0on-nP-s03" firstAttribute="top" secondItem="8Sd-io-Xgj" secondAttribute="bottom" constant="24" id="6ko-MW-ato"/>
+                            <constraint firstItem="Y7N-CD-cXp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="9ya-rf-w0n"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Y7N-CD-cXp" secondAttribute="trailing" constant="8" id="A4h-JM-HpK"/>
+                            <constraint firstItem="Y7N-CD-cXp" firstAttribute="top" secondItem="0on-nP-s03" secondAttribute="bottom" constant="16" id="Hrn-iR-lRX"/>
+                            <constraint firstItem="9w6-gA-ISj" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="OLc-qD-HmP"/>
+                            <constraint firstItem="X1M-BP-IIh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ONs-zi-idP"/>
+                            <constraint firstItem="t2z-Km-Foj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="PBk-V4-IOG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="VdZ-u7-Qj1" secondAttribute="trailing" constant="8" id="RYr-WV-Bq9"/>
+                            <constraint firstItem="0on-nP-s03" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="Ros-69-f7z"/>
+                            <constraint firstItem="t2z-Km-Foj" firstAttribute="top" secondItem="X1M-BP-IIh" secondAttribute="bottom" constant="6" id="YkP-S0-wXP"/>
+                            <constraint firstItem="X1M-BP-IIh" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="et2-MV-ecZ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9w6-gA-ISj" secondAttribute="trailing" constant="8" id="evW-ct-giq"/>
+                            <constraint firstItem="vUU-XI-Jb4" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="ic8-fl-kr7"/>
+                            <constraint firstItem="X1M-BP-IIh" firstAttribute="top" secondItem="9w6-gA-ISj" secondAttribute="bottom" constant="8" id="khG-jY-7EU"/>
+                            <constraint firstItem="VdZ-u7-Qj1" firstAttribute="top" secondItem="Y7N-CD-cXp" secondAttribute="bottom" constant="16" id="lQj-Ny-795"/>
+                            <constraint firstItem="vUU-XI-Jb4" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="rm2-ml-f9Z"/>
+                            <constraint firstItem="VdZ-u7-Qj1" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="so4-Oa-Toj"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8Sd-io-Xgj" secondAttribute="trailing" constant="8" id="x1y-OX-Rhx"/>
+                            <constraint firstItem="8Sd-io-Xgj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="ybl-jG-As0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Detail" id="3gR-4C-W2C"/>
+                    <connections>
+                        <outlet property="detailAuthorLabel" destination="t2z-Km-Foj" id="QQ3-le-o20"/>
+                        <outlet property="detailBookmarkButton" destination="9w6-gA-ISj" id="X4w-Tp-CIE"/>
+                        <outlet property="detailContentLabel" destination="VdZ-u7-Qj1" id="INg-TI-LWf"/>
+                        <outlet property="detailDateLAbel" destination="8Sd-io-Xgj" id="6uC-TU-Zcj"/>
+                        <outlet property="detailDescriptionLabel" destination="Y7N-CD-cXp" id="F25-YU-QqB"/>
+                        <outlet property="detailNewsImage" destination="X1M-BP-IIh" id="mIH-zY-S4J"/>
+                        <outlet property="detailTitleLabel" destination="0on-nP-s03" id="Ng0-St-YuS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2124.4274809160306" y="-30.281690140845072"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ShN-A4-iq0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gbc-Sy-GNV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleToFill" translucent="NO" id="SoS-1Q-UJa">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="3MC-Hp-0c8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L46-CY-rvF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197.709923664122" y="-30.281690140845072"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bookmark" catalog="system" width="110" height="128"/>
+        <image name="chevron.backward" catalog="system" width="97" height="128"/>
+        <image name="launchImage" width="60" height="60"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
