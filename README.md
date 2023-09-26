@@ -22,8 +22,7 @@ The News App is an iOS application that allows users to stay up-to-date with the
 
 Include screen record different aspects of app, such as the main news feed, search functionality, article details view, and the dark mode.
 
-![Screenshot 1](link-to-screenshot-1.png)
-![Screenshot 2](link-to-screenshot-2.png)
+![UNIntroduce](https://github.com/dnzatas/Universal-News-App/assets/125405921/b152bf9b-7a44-4952-99f2-62d25a2d1f33)
 
 ## Installation
 
