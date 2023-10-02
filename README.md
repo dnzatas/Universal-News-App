@@ -29,7 +29,7 @@ Include screen record different aspects of app, such as the main news feed, sear
 1. Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/news-app.git
+git clone https://github.com/dnzatas/Universal-News-App.git
 
 ```
 
